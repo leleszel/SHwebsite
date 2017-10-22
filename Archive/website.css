@@ -1,0 +1,289 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Baskerville, serif;
+}
+
+.heading {
+	height: 120px;
+	width: 1425px;
+	background-color: white;
+
+}
+
+.title-text {
+	height: fit-content;
+	width : fit-content;
+	position: relative;
+	
+	left: 4%;
+	
+	font-size: 100%;
+	line-height: normal;
+	color: #545556;
+	display: inline-block;
+
+}
+
+#navigation {
+	position: relative;
+	top: -20px;
+	left: 100px;
+	right: 50px;
+	height: 50px;
+	width: 900px;
+	background-color: red;
+	border-radius: 7px
+}
+
+.head-button {
+	height: 50px;
+	width: 176px;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+}
+/* Dropdown Button */
+.dropbtn {
+	background-color: red;
+	color: white;
+	font-size: 17px;
+}
+
+/* The container button4 - needed to position the dropdown content */
+#button4 {
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+#button4:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#button4:hover .dropbtn {
+    background-color: red;
+}
+hr { width:100%; height:1px; background: white; }
+
+.main-pictures {
+	height: 700px;
+	width: 1425px;
+	background-color: white;
+}
+
+.quote {
+	position: relative;
+	top: 10px;
+	left: 150px;
+	height: 60px;
+	width: 1100px;
+
+}
+
+.hayley {
+	text-align: right;
+}
+
+.pic-control {
+	position: relative;
+	top: -10px;
+	left: 690px;
+	width: 200px;
+	height: 40px;
+}
+
+/* #bu1 {
+	position: relative;
+	top: 2px;
+	border-style: solid;
+	border-width: 2px;
+	
+} */
+.control-button {
+	border-left: 20px;
+	cursor: pointer;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: grey;
+	display: inline-block;
+}
+.active, .control-button:hover{
+	background-color: white;
+	border-color: black;
+}
+.main-pic {
+	position: relative;
+	top: 100px;
+	left: 70px;
+
+}
+
+
+#service-header {
+	position: relative;
+	left: 600px;
+	top: -50px;
+	width: 200px;
+	height: 50px;
+	background-color: red;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+
+}
+
+.services {
+	position: relative;
+	
+	height: 400px;
+	width: 1425px;
+	background-color: white;
+}
+
+.service-wrapper {
+	position: relative;
+	left: 40px;
+	height: 150px;
+	width: 400px;
+	font-size: 22px;
+	line-height: 45px;
+
+	display: inline-block;
+}
+
+#ser1 {
+	position: relative;
+	left: 70px;
+}
+
+#ser2 {
+	position: relative;
+	left: 120px;
+}
+
+#ser3 {
+	position: relative;
+	left: 165px;
+}
+
+.see-more {
+	position: relative;
+	top: -14px;
+	color: red;
+	
+}
+.see-more a{
+	text-decoration: none;
+}
+.see-more a:visited {
+	color: red;
+	}
+.divider {
+	height: 50px;
+	background-color: white;
+}
+
+
+.more-pictures {
+	height: 400px;
+	width: 1425px;
+	background-color: white;
+}
+
+.picture {
+	position: relative;
+	left: 37px;
+	display: inline-block;
+}
+
+.bottom-bar {
+	position: relative;
+	top: 30px;
+	height: 100px;
+	width: 1425px;
+	background-color: #c4c8ce;
+}
+
+.bottom-text-wrapper {
+	position: relative;
+	left: 70px;
+	height: 40px;
+}
+.bottom-text {
+	height: 30px;
+	width: 100px;
+	display: inline-block;
+	color: #5d5d5e;
+	font-size: 15px;
+}
+.bottom-text2 {
+	height: 30px;
+	width: 500px;
+	color: #5d5d5e;
+	font-size: 15px;
+}
+
+.introduction {
+	width: 1200px;
+	height: 1000px;
+	background-color: white;
+	position: relative;
+	top: 40px;
+	left: 100px;
+}
+
+#service-header2 {
+	position: relative;
+	left: 500px;
+	top: -90px;
+	width: 200px;
+	height: 50px;
+	background-color: red;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+}
+
+#me-pic {
+	position: relative;
+	top: -40px;
+	left: 120px;
+}
+
+.intro-me {
+	position: relative;
+	left: 120px;
+	height: 500px;
+	width: 1000px;
+}
